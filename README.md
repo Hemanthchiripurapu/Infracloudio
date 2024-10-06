@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The csvserver assignment
 
 The developer team of the csvserver was working hard to get it ready for production. The team decided to go for a trip before the launch, and has been missing since then. You have been given the responsibility to figure out how to get the csvserver running correctly with the help of the following document. You might need to understand why things are failing and try to fix them, and make it ready for a launch<sup>[1](#user-content-ftn1)</sup>.
@@ -110,3 +111,6 @@ Once you have pushed your progress,
 ---
 
 <a name="ftn1">1</a>: This scenario is inspired by the *[Tying This Together: Reverse Engineering a Production Service](https://sre.google/sre-book/accelerating-sre-on-call/#tying-this-together-reverse-engineering-a-production-service-ZKsDiLce)* section of chapter 28 from the Site Reliability Engineering book by Google.
+=======
+# infraclrudio
+>>>>>>> 7c6947db516fdf20cad006f65655ad58ba20b9c5
