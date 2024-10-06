@@ -10,3 +10,11 @@ services:
       - ./inputFile:/csvserver/inputdata
     env_file:
       - csvserver.env
+
+  prometheus:
+    image: prom/prometheus:v2.45.2
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yaml:/etc/prometheus/prometheus.yml
