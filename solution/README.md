@@ -1,6 +1,7 @@
 docker run -d --name csvserver infracloudio/csvserver:latest
 
-docker run -d --name csvserver --platform linux/amd64 infracloudio/csvserver:latest   --> as i am using ARM MACBOOK
+
+docker run -d --name csvserver --platform linux/amd64 infracloudio/csvserver:latest  
 
 docker ps -a
 
